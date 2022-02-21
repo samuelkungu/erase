@@ -45,6 +45,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="container">
       {!loggedIn ? (
         <div className="logIn">
           <div className="inputs">
@@ -94,6 +95,8 @@ function App() {
           </div>
         </div>
       )}
+
+    </div>
     </div>
   );
 }
